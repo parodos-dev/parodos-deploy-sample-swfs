@@ -7,8 +7,6 @@ data:
     quarkus.log.category."io.quarkus.reactivemessaging".level = DEBUG
     quarkus.log.category."io.vertx".level = DEBUG
     quarkus.datasource.jdbc.url=jdbc:postgresql://postgres-db-service.sonataflow-infra.svc.cluster.local:5432/sonataflow
-    quarkus.datasource.username=<PG_USER>
-    quarkus.datasource.password=<PG_PWD>
     kogito.jobs-service.url=${kubernetes:services.v1/jobs-service-service}
 
     # Job Service kogito-addons-quarkus-jobs-knative-eventing configuration

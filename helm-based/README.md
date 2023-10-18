@@ -29,19 +29,6 @@ echo $BASE64_PG_USER
 echo $BASE64_PG_PWD
 ```
 
-### For use by timeout workflow application.properties
-* Set the postgres credentials in the terminal window as:
-```shell
-export PG_USER=<Postgres user>
-export PG_PWD=<Postgres password>
-```
-
-* Both the environment variables should be set appropriately, check if the values are correct with the following.
-```shell
-echo $PG_USER
-echo $PG_PWD
-```
-
 ## Minikube
 
 ### Prerequisites
