@@ -79,7 +79,6 @@ metadata:
   labels:
     app: event-timeout
 spec:
-  host: event-timeout-arhkp-kustomize.apps.rhdh-dev01.kni.syseng.devcluster.openshift.com
   to:
     kind: Service
     name: event-timeout

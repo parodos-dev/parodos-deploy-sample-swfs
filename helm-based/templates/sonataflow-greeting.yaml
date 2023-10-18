@@ -51,7 +51,6 @@ metadata:
   labels:
     app: greeting
 spec:
-  host: greeting-arhkp-kustomize.apps.rhdh-dev01.kni.syseng.devcluster.openshift.com
   to:
     kind: Service
     name: greeting
